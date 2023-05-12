@@ -69,6 +69,8 @@ header nav ul li a{
 
 .summary h2{
     color:#0D5C63;
+    background-color: coral;
+    font-size: x-large;
 }
 
 .summary ul li{
@@ -78,7 +80,7 @@ header nav ul li a{
 }
 
 .summary ul li::before{
-    content:'✍️';
+    content: '✍️' ;
    font-size: larger;
    padding-right: 20px;
 }
@@ -91,16 +93,19 @@ header nav ul li a{
     color:#0D5C63;
     font-weight: bolder;
     margin-top: 20px; 
-    padding-bottom: 10px;
+    padding-bottom: 15px;
+    background-color:coral;
 }
 
 .techstack table,th,tr,td {
     border: 1px solid #0D5C63;
     border-collapse: collapse;
+    padding-top: 10px;
 }
 
 .techstack table,th,td {
     padding:10px;
+    background-color: burlywood;
 }
 
 .techstack table,tbody,th ,tr {
@@ -114,6 +119,7 @@ header nav ul li a{
      font-weight: bolder;
      margin-top: 20px;
      padding-bottom: 10px;
+     background-color: coral;
 }
 
 .education table,th,tr,td {
@@ -131,6 +137,7 @@ header nav ul li a{
     font-weight: bolder;
     margin-top: 20px;
     padding-bottom: 10px;
+    background-color: chocolate;
 }
 
 .personal strong {
